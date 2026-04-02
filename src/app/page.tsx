@@ -75,32 +75,32 @@ export default function LandingPage() {
       carouselItems={[
         {
           id: "c1",
-          imageSrc: "http://img.b2bpic.net/free-photo/refreshing-drink-with-peach-arrangement_23-2150928925.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/refreshing-drink-with-peach-arrangement_23-2150928925.jpg?_wi=1",
           imageAlt: "Espresso and Matcha pouches",
         },
         {
           id: "c2",
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bn4stty86bjdNHjdG2tFpepV0q/uploaded-1775112398796-p757pisr.jpg",
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bn4stty86bjdNHjdG2tFpepV0q/uploaded-1775112398796-p757pisr.jpg?_wi=1",
           imageAlt: "KO-CHA branding",
         },
         {
           id: "c3",
-          imageSrc: "http://img.b2bpic.net/free-vector/gradient-very-peri-instagram-story-collection_23-2149277398.jpg",
+          imageSrc: "http://img.b2bpic.net/free-vector/gradient-very-peri-instagram-story-collection_23-2149277398.jpg?_wi=1",
           imageAlt: "Espresso pouch",
         },
         {
           id: "c4",
-          imageSrc: "http://img.b2bpic.net/free-vector/matcha-tea-squared-flyer-template_23-2148876924.jpg",
+          imageSrc: "http://img.b2bpic.net/free-vector/matcha-tea-squared-flyer-template_23-2148876924.jpg?_wi=1",
           imageAlt: "Matcha pouch",
         },
         {
           id: "c5",
-          imageSrc: "http://img.b2bpic.net/free-photo/delicious-negroni-cocktails-arrangement_23-2149438817.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/delicious-negroni-cocktails-arrangement_23-2149438817.jpg?_wi=1",
           imageAlt: "Creative base",
         },
         {
           id: "c6",
-          imageSrc: "http://img.b2bpic.net/free-photo/refreshing-drink-with-peach-arrangement_23-2150928925.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/refreshing-drink-with-peach-arrangement_23-2150928925.jpg?_wi=2",
           imageAlt: "Lifestyle shot",
         },
       ]}
@@ -122,7 +122,7 @@ export default function LandingPage() {
           price: "Rp 15.000",
           rating: 5,
           reviewCount: "1.2k",
-          imageSrc: "http://img.b2bpic.net/free-vector/gradient-very-peri-instagram-story-collection_23-2149277398.jpg",
+          imageSrc: "http://img.b2bpic.net/free-vector/gradient-very-peri-instagram-story-collection_23-2149277398.jpg?_wi=2",
         },
         {
           id: "p2",
@@ -131,7 +131,7 @@ export default function LandingPage() {
           price: "Rp 15.000",
           rating: 5,
           reviewCount: "1.5k",
-          imageSrc: "http://img.b2bpic.net/free-vector/matcha-tea-squared-flyer-template_23-2148876924.jpg",
+          imageSrc: "http://img.b2bpic.net/free-vector/matcha-tea-squared-flyer-template_23-2148876924.jpg?_wi=2",
         },
         {
           id: "p3",
@@ -140,7 +140,7 @@ export default function LandingPage() {
           price: "Varies",
           rating: 5,
           reviewCount: "2k",
-          imageSrc: "http://img.b2bpic.net/free-photo/delicious-negroni-cocktails-arrangement_23-2149438817.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/delicious-negroni-cocktails-arrangement_23-2149438817.jpg?_wi=2",
         },
       ]}
       title="PILIHAN MINUMAN"
@@ -158,25 +158,25 @@ export default function LandingPage() {
           id: 1,
           title: "Praktis Dibawa",
           description: "Kemasan pouch ringan dan fleksibel, cocok untuk ke sekolah, kampus, atau hangout.",
-          imageSrc: "http://img.b2bpic.net/free-vector/gradient-very-peri-instagram-story-collection_23-2149277398.jpg",
+          imageSrc: "http://img.b2bpic.net/free-vector/gradient-very-peri-instagram-story-collection_23-2149277398.jpg?_wi=3",
         },
         {
           id: 2,
           title: "Bebas Dikreasikan",
           description: "Jadikan base drink sesuai selera. Tambahkan topping favorit kamu!",
-          imageSrc: "http://img.b2bpic.net/free-vector/matcha-tea-squared-flyer-template_23-2148876924.jpg",
+          imageSrc: "http://img.b2bpic.net/free-vector/matcha-tea-squared-flyer-template_23-2148876924.jpg?_wi=3",
         },
         {
           id: 3,
           title: "Harga Terjangkau",
           description: "Dirancang untuk kantong pelajar dan mahasiswa tanpa mengorbankan kualitas rasa.",
-          imageSrc: "http://img.b2bpic.net/free-photo/delicious-negroni-cocktails-arrangement_23-2149438817.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/delicious-negroni-cocktails-arrangement_23-2149438817.jpg?_wi=3",
         },
         {
           id: 4,
           title: "Estetik & Instagrammable",
           description: "Desain kemasan yang menarik, worth it buat konten feed dan stories kamu.",
-          imageSrc: "http://img.b2bpic.net/free-vector/gradient-very-peri-instagram-story-collection_23-2149277398.jpg",
+          imageSrc: "http://img.b2bpic.net/free-vector/gradient-very-peri-instagram-story-collection_23-2149277398.jpg?_wi=4",
         },
       ]}
       title="INOVASI YANG KAMU BUTUHKAN"
@@ -235,35 +235,35 @@ export default function LandingPage() {
           name: "Budi Santoso",
           handle: "@budis",
           testimonial: "Praktis banget buat dibawa ke kampus!",
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bn4stty86bjdNHjdG2tFpepV0q/uploaded-1775112398796-p757pisr.jpg",
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bn4stty86bjdNHjdG2tFpepV0q/uploaded-1775112398796-p757pisr.jpg?_wi=2",
         },
         {
           id: "t2",
           name: "Siti Aminah",
           handle: "@siti_a",
           testimonial: "Matcha-nya kerasa banget, nggak kaleng-kaleng.",
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bn4stty86bjdNHjdG2tFpepV0q/uploaded-1775112398796-p757pisr.jpg",
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bn4stty86bjdNHjdG2tFpepV0q/uploaded-1775112398796-p757pisr.jpg?_wi=3",
         },
         {
           id: "t3",
           name: "Andi Wijaya",
           handle: "@andi_w",
           testimonial: "Suka banget bisa dikreasikan sesuka hati.",
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bn4stty86bjdNHjdG2tFpepV0q/uploaded-1775112398796-p757pisr.jpg",
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bn4stty86bjdNHjdG2tFpepV0q/uploaded-1775112398796-p757pisr.jpg?_wi=4",
         },
         {
           id: "t4",
           name: "Dewi Lestari",
           handle: "@dewi_l",
           testimonial: "Harga pelajar tapi kualitas juara.",
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bn4stty86bjdNHjdG2tFpepV0q/uploaded-1775112398796-p757pisr.jpg",
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bn4stty86bjdNHjdG2tFpepV0q/uploaded-1775112398796-p757pisr.jpg?_wi=5",
         },
         {
           id: "t5",
           name: "Rian Hidayat",
           handle: "@rian_h",
           testimonial: "Desain pouch-nya emang paling estetik!",
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bn4stty86bjdNHjdG2tFpepV0q/uploaded-1775112398796-p757pisr.jpg",
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bn4stty86bjdNHjdG2tFpepV0q/uploaded-1775112398796-p757pisr.jpg?_wi=6",
         },
       ]}
     />

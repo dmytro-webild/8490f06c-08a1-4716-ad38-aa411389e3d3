@@ -29,64 +29,83 @@ export default function LandingPage() {
   <div id="nav" data-section="nav">
       <NavbarLayoutFloatingInline
       navItems={[
-        { name: "Produk", id: "products" },
-        { name: "Tentang", id: "features" },
-        { name: "Ads", id: "ads" },
-        { name: "Admin", id: "admin" },
+        {
+          name: "Produk",
+          id: "products",
+        },
+        {
+          name: "Tentang",
+          id: "features",
+        },
+        {
+          name: "Target",
+          id: "target",
+        },
+        {
+          name: "Order",
+          id: "order",
+        },
       ]}
       brandName="KO-CHA!!"
-      button={{ text: "Order Sekarang →", href: "#order" }}
+      button={{
+        text: "Order Sekarang →",
+        href: "#order",
+      }}
     />
   </div>
 
   <div id="hero" data-section="hero">
       <HeroBillboardRotatedCarousel
-      background={{ variant: "gradient-bars" }}
+      background={{
+        variant: "gradient-bars",
+      }}
       title="KO-CHA!!"
       description="Minuman espresso & matcha dalam kemasan pouch yang praktis. Bisa langsung diminum atau dikreasikan sesuai selera kamu."
       tag="Kopi × Matcha Pouch Base"
       buttons={[
-        { text: "Coba Sekarang →", href: "#products" },
-        { text: "Lihat Produk ↓", href: "#products" },
+        {
+          text: "Coba Sekarang →",
+          href: "#products",
+        },
+        {
+          text: "Lihat Produk ↓",
+          href: "#products",
+        },
       ]}
       carouselItems={[
-        { id: "c1", videoSrc: "https://www.w3schools.com/html/mov_bbb.mp4", videoAriaLabel: "Ad 1" },
-        { id: "c2", videoSrc: "https://www.w3schools.com/html/movie.mp4", videoAriaLabel: "Ad 2" },
-        { id: "c3", imageSrc: "http://img.b2bpic.net/free-vector/gradient-very-peri-instagram-story-collection_23-2149277398.jpg?_wi=1", imageAlt: "Espresso pouch" },
-        { id: "c4", imageSrc: "http://img.b2bpic.net/free-vector/matcha-tea-squared-flyer-template_23-2148876924.jpg?_wi=1", imageAlt: "Matcha pouch" },
-        { id: "c5", imageSrc: "http://img.b2bpic.net/free-photo/delicious-negroni-cocktails-arrangement_23-2149438817.jpg?_wi=1", imageAlt: "Creative base" },
-        { id: "c6", imageSrc: "http://img.b2bpic.net/free-photo/refreshing-drink-with-peach-arrangement_23-2150928925.jpg?_wi=2", imageAlt: "Lifestyle shot" },
+        {
+          id: "c1",
+          imageSrc: "http://img.b2bpic.net/free-photo/refreshing-drink-with-peach-arrangement_23-2150928925.jpg?_wi=1",
+          imageAlt: "Espresso and Matcha pouches",
+        },
+        {
+          id: "c2",
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bn4stty86bjdNHjdG2tFpepV0q/uploaded-1775112398796-p757pisr.jpg?_wi=1",
+          imageAlt: "KO-CHA branding",
+        },
+        {
+          id: "c3",
+          imageSrc: "http://img.b2bpic.net/free-vector/gradient-very-peri-instagram-story-collection_23-2149277398.jpg?_wi=1",
+          imageAlt: "Espresso pouch",
+        },
+        {
+          id: "c4",
+          imageSrc: "http://img.b2bpic.net/free-vector/matcha-tea-squared-flyer-template_23-2148876924.jpg?_wi=1",
+          imageAlt: "Matcha pouch",
+        },
+        {
+          id: "c5",
+          imageSrc: "http://img.b2bpic.net/free-photo/delicious-negroni-cocktails-arrangement_23-2149438817.jpg?_wi=1",
+          imageAlt: "Creative base",
+        },
+        {
+          id: "c6",
+          imageSrc: "http://img.b2bpic.net/free-photo/refreshing-drink-with-peach-arrangement_23-2150928925.jpg?_wi=2",
+          imageAlt: "Lifestyle shot",
+        },
       ]}
       tagIcon={Sparkles}
     />
-  </div>
-
-  <div id="ads" data-section="ads">
-      <FeatureCardSeven
-        animationType="slide-up"
-        textboxLayout="default"
-        useInvertedBackground={true}
-        title="Video Iklan Terbaru"
-        description="Tonton kreasi KO-CHA!!"
-        features={[
-            { title: "Varian Baru", description: "Coba matcha dengan sentuhan espresso.", videoSrc: "https://www.w3schools.com/html/mov_bbb.mp4", videoAriaLabel: "Video iklan 1" },
-            { title: "Cara Unik", description: "Cara mudah menikmati KO-CHA!!", videoSrc: "https://www.w3schools.com/html/movie.mp4", videoAriaLabel: "Video iklan 2" }
-        ]}
-      />
-  </div>
-
-  <div id="admin" data-section="admin">
-      <FeatureCardSeven
-        animationType="slide-up"
-        textboxLayout="default"
-        useInvertedBackground={false}
-        title="Dashboard Admin"
-        description="Kelola pengaturan konten dan aset dengan mudah."
-        features={[
-            { title: "Kelola Video", description: "Upload dan kelola video ads kamu.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bn4stty86bjdNHjdG2tFpepV0q/uploaded-1775112398796-p757pisr.jpg?_wi=1" },
-            { title: "Pengaturan", description: "Atur preferensi aplikasi dan notifikasi.", imageSrc: "http://img.b2bpic.net/free-photo/refreshing-drink-with-peach-arrangement_23-2150928925.jpg?_wi=2" }
-        ]}
-      />
   </div>
 
   <div id="products" data-section="products">
@@ -96,9 +115,33 @@ export default function LandingPage() {
       gridVariant="three-columns-all-equal-width"
       useInvertedBackground={false}
       products={[
-        { id: "p1", brand: "KO-CHA!!", name: "Espresso Pouch", price: "Rp 15.000", rating: 5, reviewCount: "1.2k", imageSrc: "http://img.b2bpic.net/free-vector/gradient-very-peri-instagram-story-collection_23-2149277398.jpg?_wi=2" },
-        { id: "p2", brand: "KO-CHA!!", name: "Matcha Pouch", price: "Rp 15.000", rating: 5, reviewCount: "1.5k", imageSrc: "http://img.b2bpic.net/free-vector/matcha-tea-squared-flyer-template_23-2148876924.jpg?_wi=2" },
-        { id: "p3", brand: "KO-CHA!!", name: "Kreasi Bebas", price: "Varies", rating: 5, reviewCount: "2k", imageSrc: "http://img.b2bpic.net/free-photo/delicious-negroni-cocktails-arrangement_23-2149438817.jpg?_wi=2" },
+        {
+          id: "p1",
+          brand: "KO-CHA!!",
+          name: "Espresso Pouch",
+          price: "Rp 15.000",
+          rating: 5,
+          reviewCount: "1.2k",
+          imageSrc: "http://img.b2bpic.net/free-vector/gradient-very-peri-instagram-story-collection_23-2149277398.jpg?_wi=2",
+        },
+        {
+          id: "p2",
+          brand: "KO-CHA!!",
+          name: "Matcha Pouch",
+          price: "Rp 15.000",
+          rating: 5,
+          reviewCount: "1.5k",
+          imageSrc: "http://img.b2bpic.net/free-vector/matcha-tea-squared-flyer-template_23-2148876924.jpg?_wi=2",
+        },
+        {
+          id: "p3",
+          brand: "KO-CHA!!",
+          name: "Kreasi Bebas",
+          price: "Varies",
+          rating: 5,
+          reviewCount: "2k",
+          imageSrc: "http://img.b2bpic.net/free-photo/delicious-negroni-cocktails-arrangement_23-2149438817.jpg?_wi=2",
+        },
       ]}
       title="PILIHAN MINUMAN"
       description="Minuman base ready-to-drink dalam kemasan pouch praktis."
@@ -111,10 +154,30 @@ export default function LandingPage() {
       textboxLayout="split"
       useInvertedBackground={false}
       features={[
-        { title: "Praktis Dibawa", description: "Kemasan pouch ringan dan fleksibel, cocok untuk ke sekolah, kampus, atau hangout.", imageSrc: "http://img.b2bpic.net/free-vector/gradient-very-peri-instagram-story-collection_23-2149277398.jpg?_wi=3" },
-        { title: "Bebas Dikreasikan", description: "Jadikan base drink sesuai selera. Tambahkan topping favorit kamu!", imageSrc: "http://img.b2bpic.net/free-vector/matcha-tea-squared-flyer-template_23-2148876924.jpg?_wi=3" },
-        { title: "Harga Terjangkau", description: "Dirancang untuk kantong pelajar dan mahasiswa tanpa mengorbankan kualitas rasa.", imageSrc: "http://img.b2bpic.net/free-photo/delicious-negroni-cocktails-arrangement_23-2149438817.jpg?_wi=3" },
-        { title: "Estetik & Instagrammable", description: "Desain kemasan yang menarik, worth it buat konten feed dan stories kamu.", imageSrc: "http://img.b2bpic.net/free-vector/gradient-very-peri-instagram-story-collection_23-2149277398.jpg?_wi=4" },
+        {
+          id: 1,
+          title: "Praktis Dibawa",
+          description: "Kemasan pouch ringan dan fleksibel, cocok untuk ke sekolah, kampus, atau hangout.",
+          imageSrc: "http://img.b2bpic.net/free-vector/gradient-very-peri-instagram-story-collection_23-2149277398.jpg?_wi=3",
+        },
+        {
+          id: 2,
+          title: "Bebas Dikreasikan",
+          description: "Jadikan base drink sesuai selera. Tambahkan topping favorit kamu!",
+          imageSrc: "http://img.b2bpic.net/free-vector/matcha-tea-squared-flyer-template_23-2148876924.jpg?_wi=3",
+        },
+        {
+          id: 3,
+          title: "Harga Terjangkau",
+          description: "Dirancang untuk kantong pelajar dan mahasiswa tanpa mengorbankan kualitas rasa.",
+          imageSrc: "http://img.b2bpic.net/free-photo/delicious-negroni-cocktails-arrangement_23-2149438817.jpg?_wi=3",
+        },
+        {
+          id: 4,
+          title: "Estetik & Instagrammable",
+          description: "Desain kemasan yang menarik, worth it buat konten feed dan stories kamu.",
+          imageSrc: "http://img.b2bpic.net/free-vector/gradient-very-peri-instagram-story-collection_23-2149277398.jpg?_wi=4",
+        },
       ]}
       title="INOVASI YANG KAMU BUTUHKAN"
       description="Kenapa kamu harus pilih KO-CHA!! untuk menemani harimu?"
@@ -130,11 +193,31 @@ export default function LandingPage() {
       title="Jejak KO-CHA!!"
       description="Pertumbuhan kami dalam angka."
       metrics={[
-        { id: "m1", value: "50k+", description: "Pouch Terjual" },
-        { id: "m2", value: "15+", description: "Kota Cabang" },
-        { id: "m3", value: "4.9", description: "Rating Rata-rata" },
-        { id: "m4", value: "200+", description: "Kreasi Resep" },
-        { id: "m5", value: "100%", description: "Bahan Alami" },
+        {
+          id: "m1",
+          value: "50k+",
+          description: "Pouch Terjual",
+        },
+        {
+          id: "m2",
+          value: "15+",
+          description: "Kota Cabang",
+        },
+        {
+          id: "m3",
+          value: "4.9",
+          description: "Rating Rata-rata",
+        },
+        {
+          id: "m4",
+          value: "200+",
+          description: "Kreasi Resep",
+        },
+        {
+          id: "m5",
+          value: "100%",
+          description: "Bahan Alami",
+        },
       ]}
     />
   </div>
@@ -147,22 +230,87 @@ export default function LandingPage() {
       title="Kata Mereka"
       description="Apa kata teman-teman yang sudah cobain kesegaran KO-CHA!!"
       testimonials={[
-        { id: "t1", name: "Budi Santoso", handle: "@budis", testimonial: "Praktis banget buat dibawa ke kampus!", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bn4stty86bjdNHjdG2tFpepV0q/uploaded-1775112398796-p757pisr.jpg?_wi=2" },
-        { id: "t2", name: "Siti Aminah", handle: "@siti_a", testimonial: "Matcha-nya kerasa banget, nggak kaleng-kaleng.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bn4stty86bjdNHjdG2tFpepV0q/uploaded-1775112398796-p757pisr.jpg?_wi=3" },
-        { id: "t3", name: "Andi Wijaya", handle: "@andi_w", testimonial: "Suka banget bisa dikreasikan sesuka hati.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bn4stty86bjdNHjdG2tFpepV0q/uploaded-1775112398796-p757pisr.jpg?_wi=4" },
-        { id: "t4", name: "Dewi Lestari", handle: "@dewi_l", testimonial: "Harga pelajar tapi kualitas juara.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bn4stty86bjdNHjdG2tFpepV0q/uploaded-1775112398796-p757pisr.jpg?_wi=5" },
-        { id: "t5", name: "Rian Hidayat", handle: "@rian_h", testimonial: "Desain pouch-nya emang paling estetik!", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bn4stty86bjdNHjdG2tFpepV0q/uploaded-1775112398796-p757pisr.jpg?_wi=6" },
+        {
+          id: "t1",
+          name: "Budi Santoso",
+          handle: "@budis",
+          testimonial: "Praktis banget buat dibawa ke kampus!",
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bn4stty86bjdNHjdG2tFpepV0q/uploaded-1775112398796-p757pisr.jpg?_wi=2",
+        },
+        {
+          id: "t2",
+          name: "Siti Aminah",
+          handle: "@siti_a",
+          testimonial: "Matcha-nya kerasa banget, nggak kaleng-kaleng.",
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bn4stty86bjdNHjdG2tFpepV0q/uploaded-1775112398796-p757pisr.jpg?_wi=3",
+        },
+        {
+          id: "t3",
+          name: "Andi Wijaya",
+          handle: "@andi_w",
+          testimonial: "Suka banget bisa dikreasikan sesuka hati.",
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bn4stty86bjdNHjdG2tFpepV0q/uploaded-1775112398796-p757pisr.jpg?_wi=4",
+        },
+        {
+          id: "t4",
+          name: "Dewi Lestari",
+          handle: "@dewi_l",
+          testimonial: "Harga pelajar tapi kualitas juara.",
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bn4stty86bjdNHjdG2tFpepV0q/uploaded-1775112398796-p757pisr.jpg?_wi=5",
+        },
+        {
+          id: "t5",
+          name: "Rian Hidayat",
+          handle: "@rian_h",
+          testimonial: "Desain pouch-nya emang paling estetik!",
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bn4stty86bjdNHjdG2tFpepV0q/uploaded-1775112398796-p757pisr.jpg?_wi=6",
+        },
       ]}
     />
   </div>
 
   <div id="footer" data-section="footer">
       <FooterBaseReveal
-      logoText="KO-CHA!!"
       columns={[
-        { title: "Tentang", items: [{ label: "Visi Kami", href: "#" }, { label: "Karir", href: "#" }] },
-        { title: "Support", items: [{ label: "Hubungi Kami", href: "#" }, { label: "FAQ", href: "#" }] },
-        { title: "Legal", items: [{ label: "Privacy Policy", href: "#" }, { label: "Terms", href: "#" }] },
+        {
+          title: "Tentang",
+          items: [
+            {
+              label: "Visi Kami",
+              href: "#",
+            },
+            {
+              label: "Karir",
+              href: "#",
+            },
+          ],
+        },
+        {
+          title: "Support",
+          items: [
+            {
+              label: "Hubungi Kami",
+              href: "#",
+            },
+            {
+              label: "FAQ",
+              href: "#",
+            },
+          ],
+        },
+        {
+          title: "Legal",
+          items: [
+            {
+              label: "Privacy Policy",
+              href: "#",
+            },
+            {
+              label: "Terms",
+              href: "#",
+            },
+          ],
+        },
       ]}
       copyrightText="© 2025 Kocha! · Espresso & Matcha Pouch Base"
     />

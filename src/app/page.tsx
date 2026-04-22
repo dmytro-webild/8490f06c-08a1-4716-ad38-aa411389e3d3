@@ -9,7 +9,7 @@ import MetricCardTwo from '@/components/sections/metrics/MetricCardTwo';
 import NavbarLayoutFloatingInline from '@/components/navbar/NavbarLayoutFloatingInline';
 import ProductCardTwo from '@/components/sections/product/ProductCardTwo';
 import TestimonialCardSix from '@/components/sections/testimonial/TestimonialCardSix';
-import { Sparkles, Video, Settings } from "lucide-react";
+import { Sparkles } from "lucide-react";
 
 export default function LandingPage() {
   return (
@@ -126,16 +126,12 @@ export default function LandingPage() {
       useInvertedBackground={false}
       features={[
         {
-          id: 1,
           title: "Praktis Dibawa",          description: "Kemasan pouch ringan dan fleksibel, cocok untuk ke sekolah, kampus, atau hangout.",          imageSrc: "http://img.b2bpic.net/free-vector/gradient-very-peri-instagram-story-collection_23-2149277398.jpg?_wi=3"},
         {
-          id: 2,
           title: "Bebas Dikreasikan",          description: "Jadikan base drink sesuai selera. Tambahkan topping favorit kamu!",          imageSrc: "http://img.b2bpic.net/free-vector/matcha-tea-squared-flyer-template_23-2148876924.jpg?_wi=3"},
         {
-          id: 3,
           title: "Harga Terjangkau",          description: "Dirancang untuk kantong pelajar dan mahasiswa tanpa mengorbankan kualitas rasa.",          imageSrc: "http://img.b2bpic.net/free-photo/delicious-negroni-cocktails-arrangement_23-2149438817.jpg?_wi=3"},
         {
-          id: 4,
           title: "Estetik & Instagrammable",          description: "Desain kemasan yang menarik, worth it buat konten feed dan stories kamu.",          imageSrc: "http://img.b2bpic.net/free-vector/gradient-very-peri-instagram-story-collection_23-2149277398.jpg?_wi=4"},
       ]}
       title="INOVASI YANG KAMU BUTUHKAN"
@@ -190,6 +186,7 @@ export default function LandingPage() {
 
   <div id="footer" data-section="footer">
       <FooterBaseReveal
+      logoText="KO-CHA!!"
       columns={[
         {
           title: "Tentang",          items: [
